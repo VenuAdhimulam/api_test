@@ -1,1 +1,1 @@
-web: php artisian serve
+web: php artisan serve
