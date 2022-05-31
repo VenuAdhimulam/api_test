@@ -7,12 +7,31 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "start": "nodemon index.js"
     },
     "devDependencies": {
-        "axios": "^0.25",
+        "@babel/preset-react": "^7.13.13",
+        "@popperjs/core": "^2.10.2",
+        "axios": "^0.25.0",
+        "bootstrap": "^5.1.3",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.1.14",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/icons": "^4.11.2",
+        "@mui/icons-material": "^5.8.0",
+        "@mui/material": "^5.5.3",
+        "install": "^0.13.0",
+        "npm": "^8.10.0",
+        "react-router-dom": "^5.3.3",
+        "styled-components": "^5.3.5"
     }
 }

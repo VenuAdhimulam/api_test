@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ExpensesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Route::get('/', [ExpensesController::class, 'index']);
+// Route::get('/getExpenses', [ExpensesController::class, 'fetch']);
+// Route::post('/saveExpenses', [ExpensesController::class, 'store']);
+// Route::get('/editExpenses/{id}', [ExpensesController::class, 'edit']);
+// Route::put('/updateExpenses/{id}', [ExpensesController::class, 'update']);
+// Route::delete('/deleteExpenses/{id}', [ExpensesController::class, 'destroy']);
+// Route::delete('/deleteExpenses/{id}', [ExpensesController::class, 'destroy']);
